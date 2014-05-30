@@ -31,11 +31,12 @@ You also need to specify the name of the bundle, the output url, and the files t
 
 ### Implementing IBundlesFactory
 
+If you are using squishit we provide a [nuget](https://www.nuget.org/packages/tparnell.ContentBundling.Squishit/) package that contains a factory for squishit.
+
 You need to implement an IBundlesFactory. This will be loaded from your assembly, unless you flag it not to in the constructor.
 
 The IBundlesFactory implementation should do the actual processing of content minification. 
 
-This project contains an example of an IBundlesFactory to be used with [Squishit](https://www.nuget.org/packages/SquishIt)
 
 
 ### Bundling Content
