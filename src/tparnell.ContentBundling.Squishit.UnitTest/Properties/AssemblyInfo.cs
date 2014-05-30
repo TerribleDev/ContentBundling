@@ -5,22 +5,23 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("tparnell.ContentBundling.Squishit")]
+[assembly: AssemblyTitle("tparnell.ContentBundling.Squishit.UnitTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("tparnell.ContentBundling.Squishit")]
+[assembly: AssemblyProduct("tparnell.ContentBundling.Squishit.UnitTest")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: InternalsVisibleTo("tparnell.ContentBundling.Squishit.UnitTest")]
+
+
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4f7e63b5-c912-4c51-8d26-a49d0ff1aa61")]
+[assembly: Guid("b47eda39-58df-4fba-85af-e8f64458c0c1")]
 
 // Version information for an assembly consists of the following four values:
 //

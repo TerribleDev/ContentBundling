@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8161820F-B3F1-4D84-B376-9190F2285DAD}</ProjectGuid>
+    <ProjectGuid>{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>tparnell.ContentBundling.Squishit</RootNamespace>
-    <AssemblyName>tparnell.ContentBundling.Squishit</AssemblyName>
+    <RootNamespace>tparnell.ContentBundling.Squishit.UnitTest</RootNamespace>
+    <AssemblyName>tparnell.ContentBundling.Squishit.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,6 +39,9 @@
     <Reference Include="Iesi.Collections">
       <HintPath>..\..\packages\YUICompressor.NET.2.0.0.0\lib\NET20\Iesi.Collections.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="SquishIt.Framework">
       <HintPath>..\..\packages\SquishIt.0.9.5.3\lib\SquishIt.Framework.dll</HintPath>
     </Reference>
@@ -54,16 +57,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BundlesFactory.cs" />
-    <Compile Include="BundlesProcessor.cs" />
+    <Compile Include="BundlesFactoryTest.cs" />
+    <Compile Include="BundlessProcessorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\tparnell.ContentBundling.Squishit\tparnell.ContentBundling.Squishit.csproj">
+      <Project>{8161820f-b3f1-4d84-b376-9190f2285dad}</Project>
+      <Name>tparnell.ContentBundling.Squishit</Name>
+    </ProjectReference>
     <ProjectReference Include="..\tparnell.ContentBundling\tparnell.ContentBundling.csproj">
-      <Project>{eca4d0fd-3f56-4b8b-b9de-e671e38e351c}</Project>
+      <Project>{ECA4D0FD-3F56-4B8B-B9DE-E671E38E351C}</Project>
       <Name>tparnell.ContentBundling</Name>
     </ProjectReference>
   </ItemGroup>

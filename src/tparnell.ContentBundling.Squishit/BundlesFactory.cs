@@ -1,5 +1,4 @@
 ﻿using System;
-using EventManager.Web.Bundles;
 using SquishIt.Framework;
 using SquishIt.Framework.CSS;
 using tparnell.ContentBundling.Attributes;

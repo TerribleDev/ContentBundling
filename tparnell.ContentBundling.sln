@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{950EC3
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tparnell.ContentBundling.Squishit", "src\tparnell.ContentBundling.Squishit\tparnell.ContentBundling.Squishit.csproj", "{8161820F-B3F1-4D84-B376-9190F2285DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tparnell.ContentBundling.Squishit.UnitTest", "src\tparnell.ContentBundling.Squishit.UnitTest\tparnell.ContentBundling.Squishit.UnitTest.csproj", "{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,22 @@ Global
 		{85532C8E-1BFD-40B8-8E3A-1F7D46D24ED8}.NET4.5|Any CPU.Build.0 = Release|Any CPU
 		{85532C8E-1BFD-40B8-8E3A-1F7D46D24ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85532C8E-1BFD-40B8-8E3A-1F7D46D24ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.NET4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.NET4.0|Any CPU.Build.0 = Release|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.NET4.5|Any CPU.ActiveCfg = Release|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.NET4.5|Any CPU.Build.0 = Release|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8161820F-B3F1-4D84-B376-9190F2285DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.NET4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.NET4.0|Any CPU.Build.0 = Release|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.NET4.5|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.NET4.5|Any CPU.Build.0 = Release|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3ECC90-79AF-4EFA-931A-6BD5A71600D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
