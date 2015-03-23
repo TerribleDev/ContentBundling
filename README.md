@@ -2,7 +2,7 @@
 
 This is simply a framework to provide attributes around content bundling.
 
-Instead of declaring your bundles directly in your content bundling provider, you can delcare them in your view models.
+Instead of declaring your bundles directly in your content bundling provider, you can declare them in your view models.
 
 
 ## ContentBundling
